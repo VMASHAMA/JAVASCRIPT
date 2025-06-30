@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    border: 0;
+   background-color: brown;
+}
+h2{
+    align-items: right;
+    color: rgb(130, 149, 130);
+}
+#chickForm {
+    border: solid 8px rgb(142, 150, 142);
+    width: 500px;
+    margin: 50px 50px;
+    padding: 10px 10px;
+    background-color: beige;
+}
+label{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+input{
+    border: none;
+    height: 35px;
+    background-color: bisque;
+}
+button{
+    background-color: bisque;
+}
+.md-3{
+    border: solid;
+}

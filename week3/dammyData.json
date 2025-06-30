@@ -1,0 +1,27 @@
+
+[
+    {
+    "name" : "Vero",
+    "age" : 23,
+    "quantity": 155,
+    "type" : "croilerss"
+    },
+    {
+    "name" : "Jane",
+    "age" : 22,
+    "quantity": 245,
+    "type" : "Layers"
+    },
+    {
+    "name" : "Okello",
+    "age" : 30,
+    "quantity": 345,
+    "type" : "croilers"
+    },
+    {
+    "name" : "Nancy",
+    "age" : 29,
+    "quantity": 450,
+    "type" : "Broilers"
+    }
+]

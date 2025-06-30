@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Save your name to the database</h1>
+    <div> <label for="">Name</label>
+        <input type="text" id="name" placeholder="enter your name">
+    </div><br>
+    <div>
+        <button onclick="saveTolocal()">Save to local storage</button>
+        <button onclick="saveToSession()">Save to session storage</button>
+    </div><br> <br>
+     <div>
+        <button onclick="loadFromlocal()">Read from local storage</button>
+        <button onclick="loadFromSession()">Read from session storage</button>
+    </div> <br> <br>
+     <div>
+        <button onclick="clearlocal()">clear local storage</button>
+        <button onclick="clearSession()">clear session storage</button>
+    </div>
+    <p id="output"></p>
+    
+    <script>
+
+function saveTolocal(){
+const name = document.getElementById('name').value;
+localStorage.setItem("farmerName", name);
+alert('Name saved to localStorage');
+}
+function loadFromlocal(){
+
+}
+function clearlocal(){
+
+}
+function saveToSession(){
+
+}
+function loadFromSession(){
+
+}
+function clearSession(){
+
+}
+
+    </script>
+</body>
+
+</html>
